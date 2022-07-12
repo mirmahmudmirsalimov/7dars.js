@@ -1,0 +1,25 @@
+.hero__span {
+    color: white;
+}
+
+.hero__heading {
+    color: white;
+}
+
+.hero__input {
+    max-width: 500px;
+    width: 100%;
+}
+
+h3 {
+    color: white;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+.bg {
+    background-color: #28a745;
+}

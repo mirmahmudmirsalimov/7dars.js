@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Welkom</title>
+</head>
+
+<body class="bg">
+
+    <div class="container">
+        <h1 class="text-center mt-4 mb-4 hero__heading">Who is the first?</h1>
+        <form action="https://echo.htmlacademy.ru">
+            <label for="" class="d-flex align-items-center justify-content-center">
+                <h3 class="hero__span">Distance</h3>
+                <input class="form-control mx-3 hero__input" type="number" id="inputdol"
+                    oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)"
+                    placeholder="Please enter in kilometers">
+                <button class="btn btn-primary" type="submit">Convert</button>
+            </label>
+
+            <div class="mb-5 mt-5">
+                <div class=" row">
+                    <div class="col-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="d-flex justify-content-center flex-column text-center align-items-center">
+                            <div>
+                                <img src="./images/icon1.png" class="img" alt="">
+                            </div>
+                            <h3 class="h1 p-3 text-white">Walk</h3>
+                            <div class="result-walk h3 text-white" id="outputrub" value="10000">0</div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="d-flex justify-content-center flex-column text-center align-items-center">
+                            <div>
+                                <img src="./images/icon2.png" class="img" alt="">
+                            </div>
+                            <h3 class="h1 p-3 text-white">Bike</h3>
+                            <div class="result-walk h3 text-white" id="outputrub1" value="10000">0</div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="d-flex justify-content-center flex-column text-center align-items-center">
+                            <div>
+                                <img src="./images/icon3.png" class="img" alt="">
+                            </div>
+                            <h3 class="h1 p-3 text-white">Car</h3>
+                            <div class="result-walk h3 text-white" id="outputrub2" value="10000">0</div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="d-flex justify-content-center flex-column text-center align-items-center">
+                            <div>
+                                <img src="./images/icon4.png" class="img" alt="">
+                            </div>
+                            <h3 class="h1 p-3 text-white">Plane</h3>
+                            <div class="result-walk h3 text-white" id="outputrub3" value="10000">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
